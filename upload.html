@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+<style type="text/css">
+    .imageDIV {
+        position:relative; 
+        max-width: 100px;
+    }
+    .imageDIV img {
+        max-width: 100px;
+    }
+    .redx{
+        position:absolute;
+        float: right;
+        right: 4px;
+        color: red;
+        display: none;
+        cursor: pointer;
+    }
+    .showx{
+        display: block;
+    }
+</style>
+<body id="body">
+
+<div id="Multi_upload_div"></div>
+
+
+
+
+</body>
+<script type="text/javascript" src="Multi-upload.js"></script>
+<script type="text/javascript">
+
+    var myupload = Multi_upload.createNewUpload('upload.php','myupload');
+
+</script>
+</html>
